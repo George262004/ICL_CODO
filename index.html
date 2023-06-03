@@ -8,8 +8,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
-<body class="bg-gray-300">
-    <div class="flex justify-between items-center bg-gray-100 px-8 pt-12">
+<body class="bg-yellow-50">
+    <!-- tittle bar -->
+    <div class="flex justify-between items-center bg-gray-100 px-8 pt-4 border-b-2 border-yellow-500">
         <div class="flex items-center">
             <img class="h-20" src="/Logo.png" alt="logo">
             <h1 class=" font-bold text-4xl inline-block">
@@ -18,38 +19,53 @@
 
         </div>
         <div class="flex space-x-2 mt-12">
-            <div class="hover:bg-gray-200 active:bg-gray-300 border-yellow-500 border-x-2 border-t-2 p-2 rounded-t-lg">
+            <div class="p-2">
                 <button>
-                    <a href="#">
-                        Home
+                    <a class="bg-white p-2 hover:bg-gray-200 active:bg-gray-300 focus:outline-none focus:border-yellow-500 border-x-2 border-t-2 rounded-t-lg " href="#">
+                        <i class="absolute ri-home-4-line" style="color:rgb(167, 167, 48)"></i>
+                        <span class="pl-4">
+                            Home
+                        </span>
                     </a>
                 </button>
             </div>
-            <div class="hover:bg-gray-200 active:bg-gray-300 border-yellow-500 border-x-2 border-t-2 p-2 rounded-t-lg">
+            <div class="p-2">
                 <button>
-                    <a href="#">
-                        Compete
+                    <a class="bg-white p-2 hover:bg-gray-200 active:bg-gray-300 focus:outline-none border-yellow-500 border-x-2 border-t-2 rounded-t-lg" href="#">
+                        <i class="absolute ri-code-box-line" style="color:rgb(167, 167, 48)"></i>
+                        <span class="pl-4">
+                            Compete
+                        </span>
                     </a>
                 </button>
             </div>
-            <div class="hover:bg-gray-200 active:bg-gray-300 border-yellow-500 border-x-2 border-t-2 p-2 rounded-t-lg">
+            <div class="p-2">
                 <button>
-                    <a href="#">
-                        Courses
+                    <a class="bg-white p-2 hover:bg-gray-200 active:bg-gray-300 focus:outline-none focus:border-yellow-500 border-x-2 border-t-2 rounded-t-lg" href="#">
+                        <i class="absolute ri-book-2-line " style="color:rgb(167, 167, 48)"></i>
+                        <span class="pl-4">
+                            Course
+                        </span>
                     </a>
                 </button>
             </div>
-            <div class="hover:bg-gray-200 active:bg-gray-300 border-yellow-500 border-x-2 border-t-2 p-2 rounded-t-lg">
+            <div class="p-2">
                 <button>
-                    <a href="#">
-                        Settings
+                    <a class="bg-white p-2 hover:bg-gray-200 active:bg-gray-300 focus:outline-none focus:border-yellow-500 border-x-2 border-t-2 rounded-t-lg" href="#">
+                        <i class="absolute ri-settings-4-line" style="color:rgb(167, 167, 48)"></i>
+                        <span class="pl-4">
+                            Settings
+                        </span>
                     </a>
                 </button>
             </div>
-            <div class="hover:bg-gray-200 active:bg-gray-300 border-yellow-500 border-x-2 border-t-2 p-2 rounded-t-lg">
+            <div class="p-2">
                 <button>
-                    <a href="#">
-                        Login
+                    <a class="bg-white p-2 hover:bg-gray-200 active:bg-gray-300 focus:outline-none focus:border-yellow-500 border-x-2 border-t-2 rounded-t-lg" href="#">
+                        <i class="absolute ri-login-box-line" style="color:rgb(167, 167, 48)"></i>
+                        <span class="pl-4">
+                            Login
+                        </span>
                     </a>
                 </button>
             </div>
@@ -58,6 +74,20 @@
             <i style="color:rgb(179, 180, 180);" class="absolute pt-2 pl-4 ri-search-line"></i>
             <input class=" pr-3 py-2 pl-9 placeholder:italic placeholder:text-slate-400 block bg-white border border-slate-300 rounded-lg shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"  placeholder="Search for anything..." type="text">
         </div>
+    </div>
+
+    <div style="background-image: url(coding_bg.jpeg);" class="block h-screen w-screen bg-cover opacity-50 hidden">
+
+    </div>
+
+    <div class="grid grid-cols-5">
+        <div class="col-span-2">
+            <p class="text-center">hello</p>
+        </div>
+        <div class="col-span-3 relative block ">
+            <img class="absolute p-4 w-full object-cover object-center inset-0" src="./coding.jpg" alt="bg">
+        </div>
+        
     </div>
 </body>
 </html>
